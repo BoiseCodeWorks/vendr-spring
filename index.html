@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vendr</title>
+</head>
+
+<body>
+  <div>
+    <h3>Vendr</h3>
+    <div style="width: 25%">
+      <marquee id="msg-output">Welcome to vendr</marquee>
+    </div>
+    <div>
+      <button onclick="vendr.addMoney('quarter')">Add Quarter</button>
+      <button onclick="vendr.addMoney('dime')">Add Dime</button>
+      <button onclick="vendr.addMoney('blarg')">Add blarg</button>
+      <button onclick="vendr.addMoney('dollar')">$1.00</button>
+    </div>
+    <div id="buttons-container"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
